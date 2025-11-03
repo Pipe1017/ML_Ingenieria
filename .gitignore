@@ -1,0 +1,20 @@
+# --- Datos ---
+# Ignorar todos los archivos de datos. NUNCA subas datos a GitHub.
+*.csv
+*.xlsx
+
+# --- Modelos ---
+# Los modelos entrenados son binarios pesados.
+*.joblib
+*.pkl
+*.h5
+
+# --- Entorno Virtual ---
+# Ignorar carpetas de entorno virtual
+venv/
+.venv/
+
+# --- Python y Notebooks ---
+# Ignorar caché de Python y checkpoints de Jupyter
+__pycache__/
+.ipynb_checkpoints/
